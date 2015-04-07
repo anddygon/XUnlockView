@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33AD05311AD2835A0034552F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD05301AD2835A0034552F /* AppDelegate.swift */; };
+		33AD05331AD2835A0034552F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD05321AD2835A0034552F /* ViewController.swift */; };
+		33AD05361AD2835A0034552F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AD05341AD2835A0034552F /* Main.storyboard */; };
+		33AD05381AD2835A0034552F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AD05371AD2835A0034552F /* Images.xcassets */; };
+		33AD053B1AD2835A0034552F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AD05391AD2835A0034552F /* LaunchScreen.xib */; };
+		33AD05471AD2835A0034552F /* XGestureUnlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD05461AD2835A0034552F /* XGestureUnlockTests.swift */; };
+		33AD05511AD283710034552F /* XUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD05501AD283710034552F /* XUnlockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33AD05411AD2835A0034552F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AD05231AD2835A0034552F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33AD052A1AD2835A0034552F;
+			remoteInfo = XGestureUnlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33AD052B1AD2835A0034552F /* XGestureUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGestureUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AD052F1AD2835A0034552F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AD05301AD2835A0034552F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33AD05321AD2835A0034552F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33AD05351AD2835A0034552F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33AD05371AD2835A0034552F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33AD053A1AD2835A0034552F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33AD05401AD2835A0034552F /* XGestureUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGestureUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AD05451AD2835A0034552F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AD05461AD2835A0034552F /* XGestureUnlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XGestureUnlockTests.swift; sourceTree = "<group>"; };
+		33AD05501AD283710034552F /* XUnlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XUnlockView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AD05281AD2835A0034552F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD053D1AD2835A0034552F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33AD05221AD2835A0034552F = {
+			isa = PBXGroup;
+			children = (
+				33AD052D1AD2835A0034552F /* XGestureUnlock */,
+				33AD05431AD2835A0034552F /* XGestureUnlockTests */,
+				33AD052C1AD2835A0034552F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33AD052C1AD2835A0034552F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AD052B1AD2835A0034552F /* XGestureUnlock.app */,
+				33AD05401AD2835A0034552F /* XGestureUnlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AD052D1AD2835A0034552F /* XGestureUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				33AD05301AD2835A0034552F /* AppDelegate.swift */,
+				33AD05321AD2835A0034552F /* ViewController.swift */,
+				33AD05501AD283710034552F /* XUnlockView.swift */,
+				33AD05341AD2835A0034552F /* Main.storyboard */,
+				33AD05371AD2835A0034552F /* Images.xcassets */,
+				33AD05391AD2835A0034552F /* LaunchScreen.xib */,
+				33AD052E1AD2835A0034552F /* Supporting Files */,
+			);
+			path = XGestureUnlock;
+			sourceTree = "<group>";
+		};
+		33AD052E1AD2835A0034552F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33AD052F1AD2835A0034552F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33AD05431AD2835A0034552F /* XGestureUnlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				33AD05461AD2835A0034552F /* XGestureUnlockTests.swift */,
+				33AD05441AD2835A0034552F /* Supporting Files */,
+			);
+			path = XGestureUnlockTests;
+			sourceTree = "<group>";
+		};
+		33AD05441AD2835A0034552F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33AD05451AD2835A0034552F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AD052A1AD2835A0034552F /* XGestureUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AD054A1AD2835A0034552F /* Build configuration list for PBXNativeTarget "XGestureUnlock" */;
+			buildPhases = (
+				33AD05271AD2835A0034552F /* Sources */,
+				33AD05281AD2835A0034552F /* Frameworks */,
+				33AD05291AD2835A0034552F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XGestureUnlock;
+			productName = XGestureUnlock;
+			productReference = 33AD052B1AD2835A0034552F /* XGestureUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33AD053F1AD2835A0034552F /* XGestureUnlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AD054D1AD2835A0034552F /* Build configuration list for PBXNativeTarget "XGestureUnlockTests" */;
+			buildPhases = (
+				33AD053C1AD2835A0034552F /* Sources */,
+				33AD053D1AD2835A0034552F /* Frameworks */,
+				33AD053E1AD2835A0034552F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33AD05421AD2835A0034552F /* PBXTargetDependency */,
+			);
+			name = XGestureUnlockTests;
+			productName = XGestureUnlockTests;
+			productReference = 33AD05401AD2835A0034552F /* XGestureUnlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AD05231AD2835A0034552F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = eduo;
+				TargetAttributes = {
+					33AD052A1AD2835A0034552F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					33AD053F1AD2835A0034552F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 33AD052A1AD2835A0034552F;
+					};
+				};
+			};
+			buildConfigurationList = 33AD05261AD2835A0034552F /* Build configuration list for PBXProject "XGestureUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AD05221AD2835A0034552F;
+			productRefGroup = 33AD052C1AD2835A0034552F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AD052A1AD2835A0034552F /* XGestureUnlock */,
+				33AD053F1AD2835A0034552F /* XGestureUnlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AD05291AD2835A0034552F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD05361AD2835A0034552F /* Main.storyboard in Resources */,
+				33AD053B1AD2835A0034552F /* LaunchScreen.xib in Resources */,
+				33AD05381AD2835A0034552F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD053E1AD2835A0034552F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AD05271AD2835A0034552F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD05331AD2835A0034552F /* ViewController.swift in Sources */,
+				33AD05311AD2835A0034552F /* AppDelegate.swift in Sources */,
+				33AD05511AD283710034552F /* XUnlockView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD053C1AD2835A0034552F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD05471AD2835A0034552F /* XGestureUnlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33AD05421AD2835A0034552F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33AD052A1AD2835A0034552F /* XGestureUnlock */;
+			targetProxy = 33AD05411AD2835A0034552F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33AD05341AD2835A0034552F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AD05351AD2835A0034552F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33AD05391AD2835A0034552F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AD053A1AD2835A0034552F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AD05481AD2835A0034552F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33AD05491AD2835A0034552F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AD054B1AD2835A0034552F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = XGestureUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33AD054C1AD2835A0034552F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = XGestureUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33AD054E1AD2835A0034552F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XGestureUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGestureUnlock.app/XGestureUnlock";
+			};
+			name = Debug;
+		};
+		33AD054F1AD2835A0034552F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XGestureUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGestureUnlock.app/XGestureUnlock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AD05261AD2835A0034552F /* Build configuration list for PBXProject "XGestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD05481AD2835A0034552F /* Debug */,
+				33AD05491AD2835A0034552F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AD054A1AD2835A0034552F /* Build configuration list for PBXNativeTarget "XGestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD054B1AD2835A0034552F /* Debug */,
+				33AD054C1AD2835A0034552F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AD054D1AD2835A0034552F /* Build configuration list for PBXNativeTarget "XGestureUnlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD054E1AD2835A0034552F /* Debug */,
+				33AD054F1AD2835A0034552F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AD05231AD2835A0034552F /* Project object */;
+}
