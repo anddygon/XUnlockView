@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F01976E4-D023-4265-9B3F-748857FC4FC3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XGestureUnlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E52C18B657A5EA03B151A9A8286F5B669F5191EE</key>
+		<string>https://github.com/anddygon/XUnlockView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XGestureUnlock/XGestureUnlock.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E52C18B657A5EA03B151A9A8286F5B669F5191EE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anddygon/XUnlockView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E52C18B657A5EA03B151A9A8286F5B669F5191EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E52C18B657A5EA03B151A9A8286F5B669F5191EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XUnlockView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

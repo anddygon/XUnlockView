@@ -17,8 +17,6 @@ class ViewController: UIViewController, UnlockViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         unlockView.delegate = self
-        
-        println("view frame : \(view.frame)   window frame : \(view.window?.keyWindow)")
     }
     
     func trackFinished(track: NSString) {
