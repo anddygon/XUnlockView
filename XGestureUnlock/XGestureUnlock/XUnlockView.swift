@@ -23,6 +23,14 @@ class XUnlockView: UIView {
         static let totalNodes = Constant.rows * Constant.cols
     }
     
+    lazy var path: UIBezierPath = {
+        let path = UIBezierPath()
+        path.lineJoinStyle = kCGLineJoinBevel
+        path.lineCapStyle  = kCGLineCapRound
+        path.lineWidth     = Constant.Line_Width
+        return path
+        }()
+    
     @IBOutlet  var nodes = [Node]()
     
     weak var delegate: UnlockViewDelegate?
@@ -73,15 +81,7 @@ class XUnlockView: UIView {
             return
         }
         
-        let ctx = UIGraphicsGetCurrentContext()
-        CGContextSetBlendMode(ctx, kCGBlendModePlusLighter)
-        
         Constant.Line_Color.set()
-
-        let path           = UIBezierPath()
-        path.lineJoinStyle = kCGLineJoinBevel
-        path.lineCapStyle  = kCGLineCapRound
-        path.lineWidth     = Constant.Line_Width
         
         for index in 0..<selectNodes.count {
         let node = selectNodes[index]
@@ -93,6 +93,8 @@ class XUnlockView: UIView {
         }
 
         path.stroke()
+        
+        path.removeAllPoints()
         
     }
     
